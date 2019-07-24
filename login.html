@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Ejemplo de login</title>
+</head>
+<body>
+    <div id="registro">
+        <h1>Registrarse en el sistema</h1>
+        <p>Ingrese la información solicitada</p>
+        Nombre: <input type="text" name="reg_nombre" id="reg_nombre">
+        <br>
+        Apellido: <input type="text" name="reg_apellido" id="reg_apellido">
+        <br>
+        Usuario: <input type="text" name="reg_usuario" id="reg_usuario">
+        <br>
+        Clave: <input type="password" name="reg_clave" id="reg_clave">
+        <br>
+        <input type="button" value="Crear Usuario" id="btnCrearUsuario">
+        <br><br>
+        <p id="reg_bienvenida">
+            <input type="button" value="Iniciar Sesión" id="reg_btn_iniciar">
+        </p>
+    </div>
+    
+    <div id="login">
+        <input type="text" name="usuario" id="usuario">
+        <input type="password" name="clave" id="clave">
+        <input type="button" value="Ingresar al sistema" id="btnIngresar">
+    </div>
+</body>
+<script src="js/usuario.js"></script>
+<script src="js/usuarios.js"></script>
+<script src="js/main.js"></script>
+</html>
