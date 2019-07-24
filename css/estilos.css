@@ -1,0 +1,20 @@
+#registro, #login{
+    float:left;
+    clear:both;
+    border:2px solid #e6e6e6;
+    margin-top:2px;
+    padding:5px;
+    width:396px;
+    overflow:auto;
+    font-family:helvetica;
+    font-size:14px;
+    text-align: justify;
+  }
+
+  #reg_bienvenida{
+    float:left;
+  }
+
+  #divRegistro {
+      background-color: aquamarine
+  }
